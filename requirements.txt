@@ -1,0 +1,8 @@
+Django
+gunicorn
+django-cassandra-engine
+cassandra-driver
+cqlengine
+blist
+djangorestframework
+requests

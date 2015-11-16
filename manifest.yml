@@ -1,0 +1,6 @@
+---
+applications:
+  - name: test2
+    instances: 2
+    command: gunicorn test2.wsgi
+    memory: 512M
