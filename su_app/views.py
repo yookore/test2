@@ -19,7 +19,7 @@ class DefaultsMixin(object):
 class StatusUpdateViewSet(DefaultsMixin, viewsets.ModelViewSet):
     """ API endpoint for listing and creating status updates """
 
-    queryset = StatusUpdate.objects.all()[:1]
+    queryset = StatusUpdate.objects.all()[:5]
     serializer_class = StatusUpdateSerializer
 
 
